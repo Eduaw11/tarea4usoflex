@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:auto;
+}
+.containertext{
+    display: flex;
+    justify-content: left;
+/*    align-items: center; */
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.wraper{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+.imagen{
+    flex-grow: 2;
+    
+}
+.items{
+    flex-grow: 1;
+    width: 50%;
+}
+#title{
+    font-style: bold;
+}
+
+#paragraph{
+    color: grey;
+}
+#Image {
+    display: flex;
+    align-content: center;
+    width: auto;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#Account {
+    font-style: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#signup {
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+}
+#input {
+    margin-bottom: 20px;
+}
+#or {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+}
+#google {
+    font-style: bold;
+    align-items: center;
+}
+#icongoogle {
+    height: 1.5rem;
+    justify-content: left;
+
+}
+#googlebotton {
+    height: 45px;
+    width: 250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.df{
+    display: flex;
+    justify-content:space-around;
+}
+#terms{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.around{
+    display: flex;
+}
+.user-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.user-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.user-info {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
